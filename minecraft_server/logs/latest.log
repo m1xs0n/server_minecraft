@@ -1,0 +1,162 @@
+[13:15:32] [main/INFO]: Loading Minecraft 1.21.4 with Fabric Loader 0.16.13
+[13:15:33] [main/INFO]: Loading 54 mods:
+	- biomeswevegone 3.0.3
+	- cloth-config 17.0.144
+	   \-- cloth-basic-math 0.6.1
+	- corgilib 6.0.0.0
+	   |-- com_electronwill_night-config_core 3.8.0
+	   \-- com_electronwill_night-config_toml 3.8.0
+	- fabric-api 0.119.2+1.21.4
+	   |-- fabric-api-base 0.4.54+b47eab6b04
+	   |-- fabric-api-lookup-api-v1 1.6.86+b1caf1e904
+	   |-- fabric-biome-api-v1 15.0.6+b1c29d8e04
+	   |-- fabric-block-api-v1 1.0.31+7feeb73304
+	   |-- fabric-block-view-api-v2 1.0.20+9c49cc8c04
+	   |-- fabric-blockrenderlayer-v1 2.0.8+7feeb73304
+	   |-- fabric-client-tags-api-v1 1.1.29+20ea1e2304
+	   |-- fabric-command-api-v1 1.2.62+f71b366f04
+	   |-- fabric-command-api-v2 2.2.41+e496eb1504
+	   |-- fabric-commands-v0 0.2.79+df3654b304
+	   |-- fabric-content-registries-v0 9.1.19+25d1a67604
+	   |-- fabric-convention-tags-v1 2.1.20+7f945d5b04
+	   |-- fabric-convention-tags-v2 2.14.1+1edcd29104
+	   |-- fabric-crash-report-info-v1 0.3.6+7feeb73304
+	   |-- fabric-data-attachment-api-v1 1.6.2+e99da0f704
+	   |-- fabric-data-generation-api-v1 22.3.1+0f4e5f5504
+	   |-- fabric-dimensions-v1 4.0.10+7feeb73304
+	   |-- fabric-entity-events-v1 2.0.15+62245bef04
+	   |-- fabric-events-interaction-v0 4.0.4+a4eebcf004
+	   |-- fabric-game-rule-api-v1 1.0.63+7d48d43904
+	   |-- fabric-item-api-v1 11.3.0+ee91fa1f04
+	   |-- fabric-item-group-api-v1 4.2.2+fcb9601404
+	   |-- fabric-key-binding-api-v1 1.0.57+7d48d43904
+	   |-- fabric-keybindings-v0 0.2.55+df3654b304
+	   |-- fabric-lifecycle-events-v1 2.5.4+bf2a60eb04
+	   |-- fabric-loot-api-v2 3.0.38+3f89f5a504
+	   |-- fabric-loot-api-v3 1.0.26+203e6b2304
+	   |-- fabric-message-api-v1 6.0.25+7feeb73304
+	   |-- fabric-model-loading-api-v1 4.3.0+ae23723504
+	   |-- fabric-networking-api-v1 4.4.0+db5e668204
+	   |-- fabric-object-builder-api-v1 18.0.14+38b0d59804
+	   |-- fabric-particles-v1 4.0.14+7feeb73304
+	   |-- fabric-recipe-api-v1 8.1.1+640e77ae04
+	   |-- fabric-registry-sync-v0 6.1.11+4a9c1ece04
+	   |-- fabric-renderer-api-v1 5.0.3+50f0feb204
+	   |-- fabric-renderer-indigo 2.0.3+50f0feb204
+	   |-- fabric-rendering-data-attachment-v1 0.3.58+73761d2e04
+	   |-- fabric-rendering-fluids-v1 3.1.19+7feeb73304
+	   |-- fabric-rendering-v1 10.2.1+0d31b09f04
+	   |-- fabric-resource-conditions-api-v1 5.0.13+203e6b2304
+	   |-- fabric-resource-loader-v0 3.1.1+360374ac04
+	   |-- fabric-screen-api-v1 2.0.38+7feeb73304
+	   |-- fabric-screen-handler-api-v1 1.3.118+7feeb73304
+	   |-- fabric-sound-api-v1 1.0.32+7feeb73304
+	   |-- fabric-tag-api-v1 1.0.7+7d48d43904
+	   |-- fabric-transfer-api-v1 5.4.9+efa825c904
+	   \-- fabric-transitive-access-wideners-v1 6.3.2+56e78b9b04
+	- fabricloader 0.16.13
+	   \-- mixinextras 0.4.1
+	- geckolib 4.8.4
+	- java 21
+	- minecraft 1.21.4
+	- modernfix 5.20.3+mc1.21.4
+	- noisium 2.5.0+mc1.21.4
+	- ohthetreesyoullgrow 6.0.4
+	- terrablender 4.3.0.2
+	- terralith 2.5.8
+[13:15:34] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/server_minecraft/minecraft_server/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[13:15:34] [main/INFO]: Compatibility level set to JAVA_21
+[13:15:34] [main/INFO]: Loaded configuration file for ModernFix 5.20.3+mc1.21.4: 54 options available, 0 override(s) found
+[13:15:34] [main/INFO]: Applying Nashorn fix
+[13:15:35] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[13:15:41] [main/WARN]: Method overwrite conflict for scheduleRandomTick in ohthetreesyoullgrow.mixins.json:chunk.MixinChunkAccess from mod ohthetreesyoullgrow, previously written by corgitaco.corgilib.mixin.chunk.MixinChunkAccess. Skipping method.
+[13:15:41] [main/WARN]: Method overwrite conflict for getScheduledRandomTicks in ohthetreesyoullgrow.mixins.json:chunk.MixinChunkAccess from mod ohthetreesyoullgrow, previously written by corgitaco.corgilib.mixin.chunk.MixinChunkAccess. Skipping method.
+[13:15:44] [main/INFO]: Vanilla bootstrap took 7191 milliseconds
+[13:15:44] [main/INFO]: Initializing network...
+[13:15:44] [main/INFO]: Initialized network!
+[13:15:45] [main/INFO]: Registering Oh The Biomes We've Gone items
+[13:15:45] [main/INFO]: Registering Oh The Biomes We've Gone Blocks
+[13:15:45] [main/INFO]: Registering Oh The Biomes We've Gone Wood
+[13:15:45] [main/INFO]: Registering Oh The Biomes We've Gone Block Entities
+[13:15:45] [main/INFO]: Registering Oh The Biomes We've Gone Entities
+[13:15:45] [main/INFO]: Registering Oh The Biomes We've Gone Creative Tabs
+[13:15:45] [main/INFO]: Registering Oh The Biomes We've Gone Sounds
+[13:15:45] [main/INFO]: Registering Oh The Biomes We've Gone Block Predicate
+[13:15:45] [main/INFO]: Registering Oh The Biomes We've Gone State Providers
+[13:15:45] [main/INFO]: Registering Oh The Biomes We've Gone Tree Decorators
+[13:15:45] [main/INFO]: Registering Oh The Biomes We've Gone Custom Features
+[13:15:45] [main/INFO]: Registering Oh The Biomes We've Gone Structure Pieces
+[13:15:45] [main/INFO]: Registering Oh The Biomes We've Gone Custom Structure Types
+[13:15:45] [main/INFO]: Registering Oh The Biomes We've Gone Configured Features
+[13:15:45] [main/INFO]: Creating and Registering Overworld Vegetation Configured Features
+[13:15:45] [main/INFO]: Registering Oh The Biomes We've Gone Tree Configured Features
+[13:15:45] [main/INFO]: Creating and Registering Vanilla Configured Features
+[13:15:45] [main/INFO]: Registering Oh The Biomes You'll Go Overworld Configured Features
+[13:15:45] [main/INFO]: Registering Oh The Biomes We've Gone Placed Features
+[13:15:45] [main/INFO]: Creating and Registering Overworld Tree Placed Features
+[13:15:45] [main/INFO]: Creating and Registering Overworld Vegetation Placed Features
+[13:15:45] [main/INFO]: Creating and Registering Vanilla Placed Features
+[13:15:45] [main/INFO]: Registering Oh The Biomes We've Gone Custom Surface Rules
+[13:15:45] [main/INFO]: Registering Oh The Biomes We've Gone Template Pools
+[13:15:45] [main/INFO]: Registering Oh The Biome's We've Gone Village Template Pools
+[13:15:45] [main/INFO]: Registering Oh The Biomes We've Gone Poi Types
+[13:15:45] [main/INFO]: Registering Oh The Biomes We've Gone Villager Professions
+[13:15:45] [main/INFO]: Registering Oh The Biomes We've Gone Custom Structure Processors
+[13:15:45] [main/INFO]: Creating and Registering BWG Biome Modifiers for Vanilla Biomes
+[13:15:45] [main/INFO]: Loading Noisium.
+[13:15:45] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[13:15:45] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[13:15:45] [main/INFO]: Registered region biomeswevegone:region_0 to index 1 for type OVERWORLD
+[13:15:45] [main/INFO]: Registered region biomeswevegone:region_1 to index 2 for type OVERWORLD
+[13:15:45] [main/INFO]: Registered region biomeswevegone:region_2 to index 3 for type OVERWORLD
+[13:15:46] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[13:15:49] [main/INFO]: Loaded 2048 recipes
+[13:15:49] [main/INFO]: Loaded 2170 advancements
+[13:15:50] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[13:15:50] [main/INFO]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[13:15:50] [main/INFO]: Applied 25 biome modifications to 23 of 214 new biomes in 7.952 ms
+[13:15:50] [Server thread/INFO]: Starting minecraft server version 1.21.4
+[13:15:50] [Server thread/INFO]: Loading properties
+[13:15:50] [Server thread/INFO]: Default game type: SURVIVAL
+[13:15:50] [Server thread/INFO]: Generating keypair
+[13:15:50] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:15:50] [Server thread/INFO]: Using epoll channel type
+[13:15:51] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:15:51] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:15:51] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:15:51] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:15:51] [Server thread/INFO]: Preparing level "world"
+[13:15:51] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:15:52] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[13:15:52] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[13:15:52] [Worker-Main-1/INFO]: Preparing spawn area: 18%
+[13:15:53] [Worker-Main-2/INFO]: Preparing spawn area: 69%
+[13:15:53] [Server thread/INFO]: Time elapsed: 1589 ms
+[13:15:53] [Server thread/INFO]: Done (2.097s)! For help, type "help"
+[13:15:53] [Server thread/WARN]: Dedicated server took 21.481 seconds to load
+[13:16:53] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[13:23:19] [Server thread/INFO]: mlse[/[0:0:0:0:0:0:0:1]:50184] logged in with entity id 5 at (291.58484166949444, 66.0, 29.69999998807907)
+[13:23:19] [Server thread/INFO]: mlse joined the game
+[13:23:24] [Server thread/INFO]: mlse lost connection: Disconnected
+[13:23:24] [Server thread/INFO]: mlse left the game
+[13:24:24] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[14:05:30] [Server thread/INFO]: Zeni[/[0:0:0:0:0:0:0:1]:34504] logged in with entity id 285 at (46.25044740450262, 65.0, 391.0718882821208)
+[14:05:30] [Server thread/INFO]: Zeni joined the game
+[14:07:20] [Server thread/INFO]: Zeni has made the advancement [A Seedy Place]
+[14:42:13] [Server thread/INFO]: Zeni has made the advancement [Diamonds!]
+[14:49:27] [Server thread/INFO]: Zeni has made the advancement [Suit Up]
+[15:32:31] [Server thread/INFO]: rect3m[/[0:0:0:0:0:0:0:1]:39264] logged in with entity id 15809 at (45.52385971755518, 64.0, 390.79993569090016)
+[15:32:31] [Server thread/INFO]: rect3m joined the game
+[15:32:41] [Server thread/INFO]: [Not Secure] <rect3m> ку
+[15:39:50] [Server thread/INFO]: rect3m has made the advancement [Isn't It Iron Pick]
+[15:45:41] [Server thread/INFO]: Zeni has made the advancement [Ice Bucket Challenge]
+[15:47:39] [Server thread/INFO]: [Not Secure] <Zeni> 48 345
+[15:51:15] [Server thread/INFO]: Zeni has made the advancement [Minecraft: Trial(s) Edition]
+[15:51:20] [Server thread/INFO]: rect3m has made the advancement [Minecraft: Trial(s) Edition]
+[15:55:24] [Server thread/INFO]: rect3m has made the advancement [Acquire Hardware]
+[15:58:40] [Server thread/INFO]: Zeni has made the advancement [Under Lock and Key]
+[15:59:07] [Server thread/INFO]: rect3m lost connection: Disconnected
+[15:59:07] [Server thread/INFO]: rect3m left the game
+[15:59:10] [Server thread/INFO]: Zeni lost connection: Disconnected
+[15:59:10] [Server thread/INFO]: Zeni left the game
+[16:00:10] [Server thread/INFO]: Server empty for 60 seconds, pausing
