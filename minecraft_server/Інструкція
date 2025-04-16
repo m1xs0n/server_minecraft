@@ -1,0 +1,15 @@
+
+// запустити світ java   -Xmx12G -jar server
+
+// моніторинг   glances
+
+//-----
+
+перший запуск    ./ngrok authtoken 2vjaTqlLQdAUY1cjhveDwgY1QHB_4kEK28tQJZgj1iKoLvVCb
+
+захостити   ./ngrok tcp 25565
+
+//-----
+
+
+// кіть "ERR_NGROK_108" сервак вже запущений
